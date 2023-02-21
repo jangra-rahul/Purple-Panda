@@ -510,6 +510,11 @@ section {
   border-radius: 10px;
 }
 
+textarea {
+  resize: none;
+  height: 110px !important;
+}
+
 .box_popular {
   background: rgba(22, 15, 47, 0.5);
   backdrop-filter: blur(9px);
@@ -524,7 +529,7 @@ section {
 }
 
 .max_272 {
-  max-width: 272px;
+  width: 272px;
 }
 /* 
 .animation {
@@ -682,7 +687,7 @@ section {
     --fs-xsm: 12px;
     --fs-sm: 10px;
     --fs-md: 9px;
-    --fs-lg: 14px;
+    --fs-lg: 13px;
     --fs-xl: 20px;
     --fs-xxl: 30px;
     --fs-3xl: 39px;
@@ -692,6 +697,9 @@ section {
     --fw-md: 600;
     --fw-lg: 700;
     --fw-xl: 800;
+  }
+  .max_272 {
+    width: 120px;
   }
 
   .form_box {
@@ -838,6 +846,9 @@ section {
   /* .trans {
     transform: translateY(0px);
   } */
+  .max_272 {
+    width: 200px;
+  }
 }
 @media (min-width: 768px) {
   :root {
@@ -856,6 +867,9 @@ section {
     --fw-lg: 700;
     --fw-xl: 800;
     /* ==========================color------------------ */
+  }
+  .max_272 {
+    width: 272px;
   }
   .prices_box {
     background: rgba(22, 15, 47, 0.5);

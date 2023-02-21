@@ -32,11 +32,7 @@ function App() {
   }, []);
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-      {/* <Header /> */}
+      <Header />
       <Logo />
       <About />
       <Our />

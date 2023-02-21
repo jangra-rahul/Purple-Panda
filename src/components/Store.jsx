@@ -19,12 +19,13 @@ function Store() {
             data-aos-duration="1000"
             className="d-flex justify-content-center mt-5"
           >
-            <div className="max_272 ">
-              <div className="max_272">
+            <div className=" ">
+              <div className="border_bottom  max_272">
+                {/* <div className=""> */}
                 <h2 className="fs_24 fw_600 ff_mon text-center text-white  ">
                   Mon : 10am-8pm{" "}
                 </h2>
-                <div className="border_bottom mt-2"></div>
+                {/* </div> */}
               </div>
               <div className="max_272 pt-4 mt-2">
                 <h2 className="fs_24 fw_600 ff_mon text-center text-white  ">

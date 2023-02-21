@@ -22,8 +22,8 @@ function Header() {
           <div className="d-md-flex d-none align-items-center text-center  text-md-start py-2 justify-content-center">
             <img src={gift} alt="gift" />
             <p className="fs_16 fw_300 ff_phi color_light_white mb-0 ps-3">
-              <span className="fw_800 ff_mon">Black Friday</span> savings are
-              here ,save up to 10% off on coupon code
+              <span className="fw_800 ff_mon text-white">Black Friday</span>{" "}
+              savings are here ,save up to 10% off on coupon code
             </p>
             <div className="">
               <h1 className="fs_16 fw_800 ff_mon color_pink mb-0 ps-2">

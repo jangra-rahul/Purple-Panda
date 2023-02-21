@@ -14,6 +14,11 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   const [name, setName] = useState(false);
+  if (name) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "initial";
+  }
   return (
     <>
       <section className="bg_img_1 bg_dark_blue d-flex flex-column min_vh_100">
@@ -21,8 +26,8 @@ function Contact() {
           <div className="d-md-flex d-none align-items-center text-center  text-md-start py-2 justify-content-center">
             <img src={gift} alt="gift" />
             <p className="fs_16 fw_300 ff_phi color_light_white mb-0 ps-3">
-              <span className="fw_800 ff_mon">Black Friday</span> savings are
-              here ,save up to 10% off on coupon code
+              <span className="fw_800 ff_mon text-white">Black Friday</span>{" "}
+              savings are here ,save up to 10% off on coupon code
             </p>
             <div className="">
               <h1 className="fs_16 fw_800 ff_mon text_color mb-0 ps-2">
@@ -182,7 +187,7 @@ function Contact() {
               Contact
             </h2>
             <p className="fs_16 fw_400 ff_mon color_light_white  text-center">
-              Home Contact
+              Home &gt; Contact
             </p>
           </div>
         </div>
@@ -263,7 +268,7 @@ function Contact() {
                       placeholder="Message..."
                     ></textarea>
                   </div>
-                  <div className="d-flex justify-content-center">
+                  <div className="d-flex justify-content-center justify-content-md-start">
                     <a
                       className="but fs_20 fw_700 ff_mon color_light_white"
                       href="#"
@@ -279,6 +284,7 @@ function Contact() {
       </div>
       <div className="bg_dark_blue py-5">
         <div className="container">
+          ~
           <h2 className="fs_48 fw_400 ff_phi text-center text-white">
             Store <span className="text_color">Hours</span>
           </h2>
