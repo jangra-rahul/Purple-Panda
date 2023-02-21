@@ -34,31 +34,33 @@ function Toronto() {
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"
-                className="card_1 d-flex flex-column align-items-center"
+                className="card_1 d-flex flex-column align-items-center justify-content-center"
               >
-                <div className="d-flex ml_30 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32  fw_400 ff_mon text-white ps-3">
-                    Mississauga
-                  </h2>
-                </div>
-                <div className="d-flex mr_38 mt-3 align-items-center">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Oakville
-                  </h2>
-                </div>
-                <div className="d-flex mt-3 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Brampton
-                  </h2>
-                </div>
-                <div className="d-flex mt-3 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Etobicoke
-                  </h2>
+                <div>
+                  <div className="d-flex  align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 mb-0 fw_400 ff_mon text-white ps-3">
+                      Mississauga
+                    </h2>
+                  </div>
+                  <div className="d-flex mt-3 align-items-center">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Oakville
+                    </h2>
+                  </div>
+                  <div className="d-flex mt-3 align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Brampton
+                    </h2>
+                  </div>
+                  <div className="d-flex mt-3 align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Etobicoke
+                    </h2>
+                  </div>
                 </div>
               </div>
               {/* </div> */}
@@ -72,31 +74,33 @@ function Toronto() {
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"
-                className="card_1 d-flex flex-column align-items-center"
+                className="card_1 d-flex justify-content-center flex-column align-items-center"
               >
-                <div className="d-flex mr_38 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32  fw_400 ff_mon text-white ps-3">
-                    Toronto
-                  </h2>
-                </div>
-                <div className="d-flex mr_15 mt-3 align-items-center">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Vaughan
-                  </h2>
-                </div>
-                <div className="d-flex mt-3 mr-15 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Markham
-                  </h2>
-                </div>
-                <div className="d-flex mt-3 align-items-center ">
-                  <img src={dot} alt="dot" />
-                  <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
-                    Richmond
-                  </h2>
+                <div>
+                  <div className="d-flex align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32  fw_400 ff_mon text-white ps-3">
+                      Toronto
+                    </h2>
+                  </div>
+                  <div className="d-flex mr_15 mt-3 align-items-center">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Vaughan
+                    </h2>
+                  </div>
+                  <div className="d-flex mt-3 mr-15 align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Markham
+                    </h2>
+                  </div>
+                  <div className="d-flex mt-3 align-items-center ">
+                    <img src={dot} alt="dot" />
+                    <h2 className="fs_32 fw_400 ff_mon text-white ps-3">
+                      Richmond
+                    </h2>
+                  </div>
                 </div>
               </div>
             </div>
