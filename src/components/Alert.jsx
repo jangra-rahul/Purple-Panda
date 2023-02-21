@@ -2,6 +2,7 @@ import React from "react";
 import panda1 from "../assets/image/png/panda1.png";
 import badle from "../assets/image/png/badhl.png";
 import badle1 from "../assets/image/png/badhl1.png";
+import GIF from "../assets/image/png/GIF 1.png";
 
 function Alert() {
   return (
@@ -47,13 +48,16 @@ function Alert() {
             alt="badle"
           />
           <div className=" position-relative col-8">
-            <img
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              className="w-100"
-              src={panda1}
-              alt="panda1"
-            />
+            <div className=" position-relative">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                className="w-100"
+                src={panda1}
+                alt="panda1"
+              />
+              {/* <img className=" position-absolute-five" src={GIF} alt="GIF" /> */}
+            </div>
             <a
               className="but1 positionabsolut fs_20 fw_700 ff_mon text-white"
               href="#"

@@ -588,6 +588,15 @@ section {
   /* position: relative; */
   animation-timing-function: 5s;
 }
+.position-absolute-five {
+  position: absolute;
+  top: 55%;
+  right: 32%;
+  transform: translateX(-50%);
+}
+textarea {
+  resize: none;
+}
 
 section {
   overflow: hidden;
@@ -682,7 +691,6 @@ section {
     --fw-md: 600;
     --fw-lg: 700;
     --fw-xl: 800;
-    /* ==========================color------------------ */
   }
 
   .form_box {

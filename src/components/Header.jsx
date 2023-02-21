@@ -6,6 +6,7 @@ import vector from "../assets/image/png/Vector.png";
 import troli from "../assets/image/png/troli.png";
 import panda from "../assets/image/png/panda.png";
 import shado from "../assets/image/png/shado.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [name, setName] = useState(false);
@@ -78,14 +79,17 @@ function Header() {
                   ABOUT
                 </a>
               </li>
-              <li className="">
-                <a
-                  className="text-decoration-none ff_mon fs_16 fw_400 me-lg-4 pe-lg-2 me-2 before position-relative color_light_white text_h  line "
-                  href="#memories"
-                >
-                  CONTACT
-                </a>
-              </li>
+              <Link to="/Contact">
+                {" "}
+                <li className="">
+                  <a
+                    className="text-decoration-none ff_mon fs_16 fw_400 me-lg-4 pe-lg-2 me-2 before position-relative color_light_white text_h  line "
+                    href="#memories"
+                  >
+                    CONTACT
+                  </a>
+                </li>
+              </Link>
               <li className="">
                 <a
                   className="text-decoration-none ff_mon fs_16 fw_404 pe-lg-2 me-3 before position-relative color_light_white text_h  line "

@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import React, { useEffect } from "react";
-
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
@@ -32,7 +32,11 @@ function App() {
   }, []);
   return (
     <>
-      <Header />
+      <Routes>
+        <Route path="/" element={<Header />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      {/* <Header /> */}
       <Logo />
       <About />
       <Our />

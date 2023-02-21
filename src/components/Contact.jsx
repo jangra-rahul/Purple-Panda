@@ -10,14 +10,10 @@ import leaves from "../assets/image/png/leaves.png";
 import phone from "../assets/image/png/phone.png";
 import sms from "../assets/image/png/sms.png";
 import footer_img from "../assets/image/png/footer_img.png";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [name, setName] = useState(false);
-  if (name) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "initial";
-  }
   return (
     <>
       <section className="bg_img_1 bg_dark_blue d-flex flex-column min_vh_100">
@@ -58,14 +54,16 @@ function Contact() {
               data-aos="fade-down-left"
               className="d-md-flex d-none align-items-center ps-0 mb-0"
             >
-              <li className="">
-                <a
-                  className="text-decoration-none ff_mon fs_16 fw_400 me-lg-4 pe-lg-2 me-2 before position-relative color_light_white text_h   line"
-                  href="#home"
-                >
-                  HOME
-                </a>
-              </li>
+              <Link to="/">
+                <li className="">
+                  <a
+                    className="text-decoration-none ff_mon fs_16 fw_400 me-lg-4 pe-lg-2 me-2 before position-relative color_light_white text_h  line "
+                    href="#memories"
+                  >
+                    HOME
+                  </a>
+                </li>
+              </Link>
               <li className="">
                 <a
                   className="text-decoration-none ff_mon fs_16 fw_400 me-lg-4 pe-lg-2 me-2 before position-relative color_light_white text_h  line"
@@ -90,6 +88,7 @@ function Contact() {
                   CONTACT
                 </a>
               </li>
+
               <li className="">
                 <a
                   className="text-decoration-none ff_mon fs_16 fw_404 pe-lg-2 me-3 before position-relative color_light_white text_h  line "
@@ -250,11 +249,19 @@ function Contact() {
                     </div>
                   </div>
                   <div className="col-12 mt-3 mb-5">
-                    <input
+                    {/* <input
                       className=" h-100 fs_16 fw_400 color_light_white inbut_box1"
                       type="text"
                       placeholder="Message..."
-                    />
+                    /> */}
+                    <textarea
+                      className="inbut_box1 fs_16 fw_400 color_light_white"
+                      name="Message..."
+                      id=""
+                      cols="50"
+                      rows="4"
+                      placeholder="Message..."
+                    ></textarea>
                   </div>
                   <div className="d-flex justify-content-center">
                     <a
